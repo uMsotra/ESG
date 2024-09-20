@@ -1,0 +1,91 @@
+.podcastContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.podcastTitle {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.podcastGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.podcastList {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.podcastItem {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.podcastItem:hover {
+  background-color: #e0e0e0;
+}
+
+.activePodcast {
+  background-color: #d0d0d0;
+}
+
+.podcastPlayer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.audioPlayer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.podcastVisualization {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.podcastVisualization img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.completeButton {
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.completeButton:hover {
+  background-color: #003366;
+}
+
+.completedBadge {
+  background-color: #4CAF50;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.errorMessage {
+  color: #ff0000;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,241 @@
+.loginContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.imageSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003366; /* UCT blue background */
+}
+
+.logoWrapper {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Cover the entire area of the container */
+}
+
+.formSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5; /* Light gray background for the form */
+}
+
+.authContent {
+  width: 80%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: white; /* Background color for the form */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow around the form */
+}
+
+.authTitle {
+  text-align: center;
+  color: #003366; /* Dark blue color for the text */
+  margin-bottom: 2rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc; /* Light gray border for the input fields */
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #004080; /* Darker blue when the input is focused */
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #004080; /* Dark blue background for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #003366; /* Even darker blue on hover */
+}
+
+.authSwitch {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.authSwitch button {
+  background: none;
+  border: none;
+  color: #004080; /* Blue text for the switch */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.authSwitch button:hover {
+  text-decoration: none;
+}
+
+.errorMessage {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.pageContainer {
+  padding: 2rem;
+  background-color: #f5f5f5; /* Light background for readability */
+}
+
+/* Introduction Section */
+.introSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pageTitle {
+  color: #003366;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.introText {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Visual Placeholder */
+.visualSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.visualPlaceholder {
+  width: 80%;
+  height: 200px;
+  background-color: #e0e0e0; /* Light gray for the placeholder */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.5rem;
+}
+
+/* Call-to-Action Buttons */
+.ctaSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.ctaButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #003366;
+}
+
+/* Testimonials */
+.testimonialSection {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonialTitle {
+  text-align: center;
+  color: #003366;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonialText {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.testimonialAuthor {
+  font-size: 1rem;
+  color: #003366;
+}
+
+.ctaSection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.ctaLink {
+  padding: 10px 20px;
+  background-color: #005688;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ctaLink:hover {
+  background-color: #003d5c;
+}
+
+.chatbotContainer {
+  width: 100%;
+  height: 70vh;
+  max-height: 600px;
+}
+
+.landbotFrame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow-y: auto;
+}
